@@ -1,0 +1,24 @@
+{
+    "products": [
+    {
+        "id": 1,
+        "name": "Camisa",
+        "prince": 59.9
+    },
+    {
+        "id": 2,
+        "name": "Calça Vermelha",
+        "prince": 90
+    },
+    {
+        "id": 3,
+        "name": "Boné aba reta",
+        "prince": 29.9
+    },
+    {
+        "id": 4,
+        "name": "Saia",
+        "prince": 49.9
+    }
+  ]
+}
