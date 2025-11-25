@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camisa",
+      "prince": 59.9
+    },
+    {
+      "id": "2",
+      "name": "Calça Vermelha",
+      "prince": 90
+    },
+    {
+      "id": "3",
+      "name": "Boné aba reta",
+      "prince": 29.9
+    },
+    {
+      "id": "4",
+      "name": "Saia",
+      "prince": 49.9
+    },
+    {
+      "id": "8559",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "85c6",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "88b5",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "aff2",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "5eef",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "ba54",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "727a",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "50d3",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "6021",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "bbbb",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "27bf",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "4b6a",
+      "name": "Codie",
+      "price": "13"
+    },
+    {
+      "id": "3f82",
+      "name": "teste",
+      "price": "13"
+    }
+  ]
+}
