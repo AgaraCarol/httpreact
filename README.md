@@ -49,21 +49,6 @@ cd httpreact
 # Instale as dependências
 npm install
 ```
-
-##  Como Usar
-
-**1. Inicie o JSON Server (Backend):**
-```bash
-npm run server
-```
-O servidor estará rodando em `http://localhost:3001`
-
-**2. Inicie a aplicação React (Frontend):**
-```bash
-npm start
-```
-A aplicação abrirá em `http://localhost:3000`
-
 ##  Arquitetura
 ```
 src/
