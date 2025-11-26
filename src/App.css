@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 * {
@@ -22,7 +21,6 @@ h1 {
   text-align: center;
 }
 
-/* Lista de produtos */
 ul {
   list-style: none;
   max-width: 600px;
@@ -65,7 +63,6 @@ ul li button:hover {
   background: #c0392b;
 }
 
-/* Formulário */
 .add-product {
   background: white;
   max-width: 500px;
@@ -130,7 +127,6 @@ ul li button:hover {
   cursor: not-allowed;
 }
 
-/* Mensagens */
 p {
   color: white;
   font-size: 18px;
@@ -148,43 +144,3 @@ p[style*="color: red"] {
   background: #e74c3c;
   color: white;
 }
-=======
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
->>>>>>> 185c657ca58f3d930aad169313d098ec7ef6a5d4
