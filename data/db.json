@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "products": [
     {
       "id": "6d22",
@@ -14,6 +15,28 @@
       "id": "970c",
       "name": "Teclado",
       "price": "88.5"
+=======
+    "products": [
+    {
+        "id": 1,
+        "name": "Camisa",
+        "prince": 59.9
+    },
+    {
+        "id": 2,
+        "name": "Calça Vermelha",
+        "prince": 90
+    },
+    {
+        "id": 3,
+        "name": "Boné aba reta",
+        "prince": 29.9
+    },
+    {
+        "id": 4,
+        "name": "Saia",
+        "prince": 49.9
+>>>>>>> 185c657ca58f3d930aad169313d098ec7ef6a5d4
     }
   ]
 }

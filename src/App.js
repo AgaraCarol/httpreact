@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css';
 import {useState, useEffect } from "react"
 
@@ -5,10 +6,20 @@ import {useState, useEffect } from "react"
 import { useFetch } from "./hooks/useFetch";
 
 const url = "http://localhost:3001/products"
+=======
+
+import './App.css';
+
+
+import {useState, useEffect } from "react"
+
+const url = "http://localhost:3000/products/"
+>>>>>>> 185c657ca58f3d930aad169313d098ec7ef6a5d4
 
 function App() {
 const [products, setProducts] = useState([])
 
+<<<<<<< HEAD
 // 4 - custom
   const {data : items, httpConfig, loading, error }  =useFetch(url)
 
@@ -61,10 +72,25 @@ const handleSubmit = async (e) => {
 const handleRemove = (id) => {
   httpConfig(id, "DELETE");
 };
+=======
+//1 * resgatando dados
+useEffect(() => {
+  async function facthData() {
+      const res = await fetch (url)
+      const data = await res.json ();
+      setProducts(data)
+    }
+    fetchData()
+
+},[]);
+
+console.log(products);
+>>>>>>> 185c657ca58f3d930aad169313d098ec7ef6a5d4
 
   return (
     <div className="App">
       <h1>Lista de produtos</h1>
+<<<<<<< HEAD
       {/* Exibir erro */}
       {error && <p style={{color: 'red'}}>{error}</p>}
 
@@ -102,8 +128,14 @@ const handleRemove = (id) => {
           <input type="submit" value={loading ? "Aguarde" : "Criar"} disabled={loading} />
         </form>
       </div>
+=======
+>>>>>>> 185c657ca58f3d930aad169313d098ec7ef6a5d4
     </div>
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 185c657ca58f3d930aad169313d098ec7ef6a5d4
