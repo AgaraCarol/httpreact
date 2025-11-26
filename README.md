@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# HTTP React - Sistema CRUD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web moderna desenvolvida em React para gerenciamento completo de produtos com operações CRUD (Create, Read, Update, Delete).
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![JSON Server](https://img.shields.io/badge/JSON_Server-1.0.0-000000?style=for-the-badge)
 
-In the project directory, you can run:
+##  Demo
 
-### `npm start`
+**[Ver aplicação ao vivo](https://AgaraCarol.github.io/httpreact)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-  **Listagem dinâmica** de produtos em tempo real
+-  **Cadastro** de novos produtos com nome e preço
+-  **Exclusão** de produtos da lista
+-  **Estados de loading** durante requisições
+-  **Tratamento de erros** com feedback visual
+-  **Interface responsiva** e moderna
+-  **Validação** de formulários
+-  **Atualização automática** após operações
 
-### `npm test`
+##  Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React 19** com Hooks (useState, useEffect)
+- **Custom Hooks** para requisições HTTP
+- **JSON Server** para API REST simulada
+- **CSS moderno** com gradientes e animações
+- **Google Fonts** (Inter)
+- **GitHub Pages** para deploy
 
-### `npm run build`
+##  Interface
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Design profissional com gradiente azul (#1e3c72 → #2a5298)
+- Cards com efeitos hover e sombras suaves
+- Fonte Inter para melhor legibilidade
+- Animações e transições fluidas
+- Design responsivo e mobile-friendly
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/AgaraCarol/httpreact.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Entre na pasta do projeto
+cd httpreact
 
-### `npm run eject`
+# Instale as dependências
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  Como Usar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**1. Inicie o JSON Server (Backend):**
+```bash
+npm run server
+```
+O servidor estará rodando em `http://localhost:3001`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**2. Inicie a aplicação React (Frontend):**
+```bash
+npm start
+```
+A aplicação abrirá em `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##  Arquitetura
+```
+src/
+├── hooks/
+│   └── useFetch.js       # Custom Hook para requisições HTTP
+├── App.js                # Componente principal
+├── App.css               # Estilos da aplicação
+└── index.js              # Ponto de entrada
+```
 
-## Learn More
+### Custom Hook - useFetch
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O hook personalizado `useFetch` gerencia:
+- Estados de loading
+- Tratamento de erros
+- Requisições GET e POST
+- Atualização automática de dados
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🌐 Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+O projeto está hospedado no GitHub Pages:
+**https://AgaraCarol.github.io/httpreact**
 
-### Analyzing the Bundle Size
+##  Autora
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Ana Caroline Alves**
 
-### Making a Progressive Web App
+- GitHub: [@AgaraCarol](https://github.com/AgaraCarol)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##  Licença
 
-### Advanced Configuration
+Este projeto é open source e está disponível sob a licença MIT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ Se você gostou deste projeto, deixe uma estrela!
