@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  padding: 40px 20px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Lista de produtos */
+ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  padding: 0;
+}
+
+ul li {
+  background: white;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+ul li button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+ul li button:hover {
+  background: #c0392b;
+}
+
+/* Formulário */
+.add-product {
+  background: white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.add-product form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-product label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.add-product input[type="text"],
+.add-product input[type="number"] {
+  padding: 12px;
+  margin-top: 8px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+.add-product input[type="text"]:focus,
+.add-product input[type="number"]:focus {
+  outline: none;
+  border-color: #2a5298;
+}
+
+.add-product input[type="submit"] {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 10px;
+}
+
+.add-product input[type="submit"]:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(42, 82, 152, 0.4);
+}
+
+.add-product input[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Mensagens */
+p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+p[style*="color: red"] {
+  background: #e74c3c;
+  color: white;
+}

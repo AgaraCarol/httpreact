@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": "6d22",
+      "name": "Mouse",
+      "price": "225"
+    },
+    {
+      "id": "e91e",
+      "name": "Suporte Monitor",
+      "price": "115"
+    },
+    {
+      "id": "970c",
+      "name": "Teclado",
+      "price": "88.5"
+    }
+  ]
+}
